@@ -104,12 +104,12 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = "en-us"
 # LANGUAGE_CODE = "uk-ua"
-#LANGUAGE_CODE = "ru-ru"
+# LANGUAGE_CODE = "ru-ru"
 
-TIME_ZONE = 'UTC'
-#TIME_ZONE = "Europe/Kyiv"
+TIME_ZONE = "UTC"
+# TIME_ZONE = "Europe/Kyiv"
 
 USE_I18N = True
 
@@ -127,5 +127,7 @@ STATIC_ROOT = BASE_DIR / "static"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-MEDIA_URL = '/media/'
-MEDIA_ROOT = Path(BASE_DIR / 'media')    
+MEDIA_URL = "/media/"
+MEDIA_ROOT = Path(BASE_DIR / "media")
+
+LOGIN_REDIRECT_URL = "/"

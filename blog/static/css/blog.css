@@ -52,8 +52,8 @@ h4 {
     color: #000000;
 }
 
-.post > .date,
-.post > .actions {
+.post>.date,
+.post>.actions {
     float: right;
 }
 
@@ -68,3 +68,16 @@ h4 {
     color: #FFFFFF;
     background-color: #C25100;
 }
+
+/* #logout-form {
+    display: inline;
+}
+
+#logout-form button {
+    padding: 0;
+    color: #fff;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+} */
